@@ -1,11 +1,13 @@
 # DeepLearning-KC-HousePrice
 
+The objective is to implement deep learning. I loaded the classification data, partitioned it based on requirements, trained it using neural networks and the results are plotted. I have used various network structures with various number of nodes in each hidden layers. The layers are analyzed based on various networks. Tensor flow has been used to train and use the deep neural networks.
+
 ![download](https://user-images.githubusercontent.com/118846871/212354256-3cd48305-bd4c-48b7-a149-6d579d8be58a.png)
 
 ## Dataset used: 
 **kc_house_data.csv**
 
-###Feature Columns:
+## Feature Columns:
 
 id - Unique ID for each home sold
 
