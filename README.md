@@ -6,6 +6,17 @@ I loaded the classification data, partitioned it based on requirements, trained 
 
 The layers are analyzed based on various networks. Tensor flow has been used to train and use the deep neural networks.
 
+Using Tensorflow, I have implemented sequential model which basically is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
+
+A model with too little capacity cannot learn the training dataset meaning it will underfit, whereas a model with too much capacity may memorize the training dataset, meaning it will overfit or may get stuck or lost during the optimization process.
+
+So, Added layer with 8 nodes and used 50% dropout to avoid overfitting in the model. One point to remember here is, Increasing the number of layers provides a short-cut to increasing the capacity of the model with fewer resources, and modern techniques allow learning algorithms to successfully train deep models.
+
+Compiled the model with ADAM optimizer,This optimization algorithm is a further extension of stochastic gradient descent to update network weights during training. Unlike maintaining a single learning rate through training in SGD, Adam optimizer updates the learning rate for each network weight individually. 
+
+And used MSE loss function, To calculate the MSE, you take the difference between your model's predictions and the ground truth, square it, and average it out across the whole dataset.
+
+### loss graph:
 ![download](https://user-images.githubusercontent.com/118846871/212354256-3cd48305-bd4c-48b7-a149-6d579d8be58a.png)
 
 ## Dataset used: 
